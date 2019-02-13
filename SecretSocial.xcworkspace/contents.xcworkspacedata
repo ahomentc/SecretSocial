@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/andrei/SecretSocial/SecretSocial/aes.js">
+      location = "group:SecretSocial.xcodeproj">
    </FileRef>
    <FileRef
-      location = "self:">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

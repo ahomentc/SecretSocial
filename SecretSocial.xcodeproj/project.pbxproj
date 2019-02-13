@@ -7,12 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750707072202683700CB1336 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750707062202683700CB1336 /* Errors.swift */; };
+		751C416821E97D39005CD67B /* StringRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C416721E97D39005CD67B /* StringRegex.swift */; };
+		751C416A21E99A0B005CD67B /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C416921E99A0B005CD67B /* AccountController.swift */; };
+		751C419D21E9A199005CD67B /* SecretSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 751C419B21E9A199005CD67B /* SecretSocial.xcdatamodeld */; };
+		751C419F21E9C191005CD67B /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C419E21E9C191005CD67B /* CreateAccountController.swift */; };
+		751C41A121E9C7E8005CD67B /* SwCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C41A021E9C7E8005CD67B /* SwCrypt.swift */; };
+		751C41A321E9C9B6005CD67B /* StringHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C41A221E9C9B6005CD67B /* StringHash.swift */; };
+		75295B0921FEF95A00104873 /* FriendRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75295B0821FEF95A00104873 /* FriendRequestTableViewCell.swift */; };
+		75295B0C21FEFBDD00104873 /* FriendRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75295B0A21FEFBDD00104873 /* FriendRequestTableViewController.swift */; };
+		75295B0D21FEFBDD00104873 /* FriendRequestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75295B0B21FEFBDD00104873 /* FriendRequestTableViewController.xib */; };
+		75295B0F21FF024C00104873 /* AccountRetrieval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75295B0E21FF024C00104873 /* AccountRetrieval.swift */; };
+		75295B1321FF0F0C00104873 /* instagram48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75295B1221FF0F0C00104873 /* instagram48.png */; };
+		75295B1821FF120B00104873 /* fb642.png in Resources */ = {isa = PBXBuildFile; fileRef = 75295B1721FF120B00104873 /* fb642.png */; };
+		75295B1D21FF167E00104873 /* reddi264.png in Resources */ = {isa = PBXBuildFile; fileRef = 75295B1C21FF167E00104873 /* reddi264.png */; };
+		75295B1F21FF174A00104873 /* iconfinder_reddit_1220354.png in Resources */ = {isa = PBXBuildFile; fileRef = 75295B1E21FF174A00104873 /* iconfinder_reddit_1220354.png */; };
+		75347DB521ED68C4004429B5 /* CryptoJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75347DB421ED68C4004429B5 /* CryptoJS.swift */; };
+		75347DB721ED6AAB004429B5 /* aes.js in Resources */ = {isa = PBXBuildFile; fileRef = 75347DB621ED6AAB004429B5 /* aes.js */; };
+		7548C42C2202B6AA00B2EBE6 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548C42B2202B6AA00B2EBE6 /* FriendsTableViewCell.swift */; };
+		7548C42F2202B81800B2EBE6 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548C42D2202B81800B2EBE6 /* FriendsTableViewController.swift */; };
+		7548C4302202B81800B2EBE6 /* FriendsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548C42E2202B81800B2EBE6 /* FriendsTableViewController.xib */; };
+		75A89B812201B0FD008BCF20 /* Friends+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A89B7D2201B0FC008BCF20 /* Friends+CoreDataClass.swift */; };
+		75A89B822201B0FD008BCF20 /* ForeignKeys+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A89B7E2201B0FC008BCF20 /* ForeignKeys+CoreDataClass.swift */; };
+		75A89B832201B0FD008BCF20 /* Friends+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A89B7F2201B0FC008BCF20 /* Friends+CoreDataProperties.swift */; };
+		75A89B842201B0FD008BCF20 /* ForeignKeys+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A89B802201B0FC008BCF20 /* ForeignKeys+CoreDataProperties.swift */; };
+		75ADBDE2220811F000EE705D /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADBDE1220811EF00EE705D /* Home.png */; };
+		75B352FA21E1E7A200829E62 /* TwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B352F921E1E7A200829E62 /* TwitterController.swift */; };
+		75B352FC21E1E91F00829E62 /* InstagramController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B352FB21E1E91F00829E62 /* InstagramController.swift */; };
+		75B3530021E1EE4700829E62 /* FacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B352FF21E1EE4700829E62 /* FacebookController.swift */; };
+		75B3530221E26C9C00829E62 /* RedditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3530121E26C9C00829E62 /* RedditController.swift */; };
+		75B3531321E731E600829E62 /* reddit64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3530F21E731E500829E62 /* reddit64.png */; };
+		75B3531421E731E600829E62 /* facebook64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3531021E731E500829E62 /* facebook64.png */; };
+		75B3531521E731E600829E62 /* twitter64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3531121E731E500829E62 /* twitter64.png */; };
+		75B3531621E731E600829E62 /* instagram64.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3531221E731E500829E62 /* instagram64.png */; };
+		75C8C5EB21FFE389009CEA2D /* Communicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C8C5EA21FFE389009CEA2D /* Communicate.swift */; };
 		75E8BFBE21E091E800449873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8BFBD21E091E800449873 /* AppDelegate.swift */; };
 		75E8BFC021E091E800449873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8BFBF21E091E800449873 /* ViewController.swift */; };
 		75E8BFC321E091E800449873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E8BFC121E091E800449873 /* Main.storyboard */; };
 		75E8BFC521E091E900449873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E8BFC421E091E900449873 /* Assets.xcassets */; };
 		75E8BFC821E091E900449873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E8BFC621E091E900449873 /* LaunchScreen.storyboard */; };
 		75E8BFD321E091E900449873 /* SecretSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8BFD221E091E900449873 /* SecretSocialTests.swift */; };
+		75F1AA3222055FD60011497C /* ChannelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1AA3122055FD60011497C /* ChannelsTableViewCell.swift */; };
+		75F1AA35220560170011497C /* ChannelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1AA33220560170011497C /* ChannelsTableViewController.swift */; };
+		75F1AA36220560170011497C /* ChannelsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F1AA34220560170011497C /* ChannelsTableViewController.xib */; };
+		9B7366AC40D2328B297DE894 /* Pods_SecretSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E435FEC804AC0995950E519 /* Pods_SecretSocialTests.framework */; };
+		F682A820366A515EC64744CD /* Pods_SecretSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C764C7EBC30F07DFF5CB2D /* Pods_SecretSocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +65,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BEA4E5143712D0304989800 /* Pods-SecretSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecretSocial/Pods-SecretSocial.release.xcconfig"; sourceTree = "<group>"; };
+		2E435FEC804AC0995950E519 /* Pods_SecretSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDCA18FC51B1EE533ECC2F2 /* Pods-SecretSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretSocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecretSocialTests/Pods-SecretSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		56A011222131AE41BB99B489 /* Pods-SecretSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretSocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretSocialTests/Pods-SecretSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		750707062202683700CB1336 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		751C416721E97D39005CD67B /* StringRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRegex.swift; sourceTree = "<group>"; };
+		751C416921E99A0B005CD67B /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		751C416B21E99F1D005CD67B /* SecretSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecretSocial.entitlements; sourceTree = "<group>"; };
+		751C419C21E9A199005CD67B /* SecretSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecretSocial.xcdatamodel; sourceTree = "<group>"; };
+		751C419E21E9C191005CD67B /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		751C41A021E9C7E8005CD67B /* SwCrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwCrypt.swift; sourceTree = "<group>"; };
+		751C41A221E9C9B6005CD67B /* StringHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHash.swift; sourceTree = "<group>"; };
+		75295B0821FEF95A00104873 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
+		75295B0A21FEFBDD00104873 /* FriendRequestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestTableViewController.swift; sourceTree = "<group>"; };
+		75295B0B21FEFBDD00104873 /* FriendRequestTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendRequestTableViewController.xib; sourceTree = "<group>"; };
+		75295B0E21FF024C00104873 /* AccountRetrieval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRetrieval.swift; sourceTree = "<group>"; };
+		75295B1221FF0F0C00104873 /* instagram48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram48.png; sourceTree = "<group>"; };
+		75295B1721FF120B00104873 /* fb642.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb642.png; sourceTree = "<group>"; };
+		75295B1C21FF167E00104873 /* reddi264.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddi264.png; sourceTree = "<group>"; };
+		75295B1E21FF174A00104873 /* iconfinder_reddit_1220354.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_reddit_1220354.png; sourceTree = "<group>"; };
+		75347DB421ED68C4004429B5 /* CryptoJS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoJS.swift; sourceTree = "<group>"; };
+		75347DB621ED6AAB004429B5 /* aes.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = aes.js; path = /Users/andrei/SecretSocial/SecretSocial/aes.js; sourceTree = "<absolute>"; };
+		7548C42B2202B6AA00B2EBE6 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		7548C42D2202B81800B2EBE6 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		7548C42E2202B81800B2EBE6 /* FriendsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewController.xib; sourceTree = "<group>"; };
+		75A89B7D2201B0FC008BCF20 /* Friends+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friends+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75A89B7E2201B0FC008BCF20 /* ForeignKeys+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ForeignKeys+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75A89B7F2201B0FC008BCF20 /* Friends+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friends+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		75A89B802201B0FC008BCF20 /* ForeignKeys+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ForeignKeys+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		75ADBDE1220811EF00EE705D /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		75B352F921E1E7A200829E62 /* TwitterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterController.swift; sourceTree = "<group>"; };
+		75B352FB21E1E91F00829E62 /* InstagramController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramController.swift; sourceTree = "<group>"; };
+		75B352FF21E1EE4700829E62 /* FacebookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookController.swift; sourceTree = "<group>"; };
+		75B3530121E26C9C00829E62 /* RedditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditController.swift; sourceTree = "<group>"; };
+		75B3530F21E731E500829E62 /* reddit64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reddit64.png; path = Assets.xcassets/reddit64.png; sourceTree = "<group>"; };
+		75B3531021E731E500829E62 /* facebook64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook64.png; path = Assets.xcassets/facebook64.png; sourceTree = "<group>"; };
+		75B3531121E731E500829E62 /* twitter64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter64.png; path = Assets.xcassets/twitter64.png; sourceTree = "<group>"; };
+		75B3531221E731E500829E62 /* instagram64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instagram64.png; path = Assets.xcassets/instagram64.png; sourceTree = "<group>"; };
+		75C8C5EA21FFE389009CEA2D /* Communicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communicate.swift; sourceTree = "<group>"; };
 		75E8BFBA21E091E800449873 /* SecretSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E8BFBD21E091E800449873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E8BFBF21E091E800449873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75E8BFC221E091E800449873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75E8BFC421E091E900449873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E8BFC721E091E900449873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75E8BFC921E091E900449873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E8BFCE21E091E900449873 /* SecretSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E8BFD221E091E900449873 /* SecretSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSocialTests.swift; sourceTree = "<group>"; };
 		75E8BFD421E091E900449873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F1AA3122055FD60011497C /* ChannelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsTableViewCell.swift; sourceTree = "<group>"; };
+		75F1AA33220560170011497C /* ChannelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsTableViewController.swift; sourceTree = "<group>"; };
+		75F1AA34220560170011497C /* ChannelsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelsTableViewController.xib; sourceTree = "<group>"; };
+		B0C764C7EBC30F07DFF5CB2D /* Pods_SecretSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02E7D69E01A46CDD77C3D8E /* Pods-SecretSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretSocial/Pods-SecretSocial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F682A820366A515EC64744CD /* Pods_SecretSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +133,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7366AC40D2328B297DE894 /* Pods_SecretSocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053D211463BC7D5C8241D021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C764C7EBC30F07DFF5CB2D /* Pods_SecretSocial.framework */,
+				2E435FEC804AC0995950E519 /* Pods_SecretSocialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C0B822EBAF83BD57AED431B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02E7D69E01A46CDD77C3D8E /* Pods-SecretSocial.debug.xcconfig */,
+				1BEA4E5143712D0304989800 /* Pods-SecretSocial.release.xcconfig */,
+				56A011222131AE41BB99B489 /* Pods-SecretSocialTests.debug.xcconfig */,
+				3EDCA18FC51B1EE533ECC2F2 /* Pods-SecretSocialTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75E8BFB121E091E800449873 = {
 			isa = PBXGroup;
 			children = (
+				75A89B7D2201B0FC008BCF20 /* Friends+CoreDataClass.swift */,
+				75A89B7E2201B0FC008BCF20 /* ForeignKeys+CoreDataClass.swift */,
+				75A89B7F2201B0FC008BCF20 /* Friends+CoreDataProperties.swift */,
+				75A89B802201B0FC008BCF20 /* ForeignKeys+CoreDataProperties.swift */,
 				75E8BFBC21E091E800449873 /* SecretSocial */,
 				75E8BFD121E091E900449873 /* SecretSocialTests */,
 				75E8BFBB21E091E800449873 /* Products */,
+				1C0B822EBAF83BD57AED431B /* Pods */,
+				053D211463BC7D5C8241D021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +187,45 @@
 		75E8BFBC21E091E800449873 /* SecretSocial */ = {
 			isa = PBXGroup;
 			children = (
+				75347DB621ED6AAB004429B5 /* aes.js */,
+				75E8BFC121E091E800449873 /* Main.storyboard */,
+				75ADBDE1220811EF00EE705D /* Home.png */,
+				75E8BFC621E091E900449873 /* LaunchScreen.storyboard */,
 				75E8BFBD21E091E800449873 /* AppDelegate.swift */,
 				75E8BFBF21E091E800449873 /* ViewController.swift */,
-				75E8BFC121E091E800449873 /* Main.storyboard */,
+				75B352FF21E1EE4700829E62 /* FacebookController.swift */,
+				75B352F921E1E7A200829E62 /* TwitterController.swift */,
+				75B3530121E26C9C00829E62 /* RedditController.swift */,
+				75B352FB21E1E91F00829E62 /* InstagramController.swift */,
+				751C419E21E9C191005CD67B /* CreateAccountController.swift */,
+				7548C42D2202B81800B2EBE6 /* FriendsTableViewController.swift */,
+				7548C42B2202B6AA00B2EBE6 /* FriendsTableViewCell.swift */,
+				75295B0A21FEFBDD00104873 /* FriendRequestTableViewController.swift */,
+				75295B0821FEF95A00104873 /* FriendRequestTableViewCell.swift */,
+				75F1AA33220560170011497C /* ChannelsTableViewController.swift */,
+				75F1AA3122055FD60011497C /* ChannelsTableViewCell.swift */,
+				751C416921E99A0B005CD67B /* AccountController.swift */,
+				75295B0E21FF024C00104873 /* AccountRetrieval.swift */,
+				751C41A021E9C7E8005CD67B /* SwCrypt.swift */,
+				75C8C5EA21FFE389009CEA2D /* Communicate.swift */,
+				75347DB421ED68C4004429B5 /* CryptoJS.swift */,
+				751C416721E97D39005CD67B /* StringRegex.swift */,
+				750707062202683700CB1336 /* Errors.swift */,
+				751C41A221E9C9B6005CD67B /* StringHash.swift */,
 				75E8BFC421E091E900449873 /* Assets.xcassets */,
-				75E8BFC621E091E900449873 /* LaunchScreen.storyboard */,
-				75E8BFC921E091E900449873 /* Info.plist */,
+				75B3531021E731E500829E62 /* facebook64.png */,
+				75B3531221E731E500829E62 /* instagram64.png */,
+				75295B1E21FF174A00104873 /* iconfinder_reddit_1220354.png */,
+				75295B1221FF0F0C00104873 /* instagram48.png */,
+				75295B1C21FF167E00104873 /* reddi264.png */,
+				75295B1721FF120B00104873 /* fb642.png */,
+				75B3530F21E731E500829E62 /* reddit64.png */,
+				75B3531121E731E500829E62 /* twitter64.png */,
+				751C419B21E9A199005CD67B /* SecretSocial.xcdatamodeld */,
+				751C416B21E99F1D005CD67B /* SecretSocial.entitlements */,
+				75F1AA34220560170011497C /* ChannelsTableViewController.xib */,
+				75295B0B21FEFBDD00104873 /* FriendRequestTableViewController.xib */,
+				7548C42E2202B81800B2EBE6 /* FriendsTableViewController.xib */,
 			);
 			path = SecretSocial;
 			sourceTree = "<group>";
@@ -103,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75E8BFD721E091E900449873 /* Build configuration list for PBXNativeTarget "SecretSocial" */;
 			buildPhases = (
+				7076180DCDCD6B26A750C608 /* [CP] Check Pods Manifest.lock */,
 				75E8BFB621E091E800449873 /* Sources */,
 				75E8BFB721E091E800449873 /* Frameworks */,
 				75E8BFB821E091E800449873 /* Resources */,
+				11AEE1347960EAAB14F6850A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75E8BFDA21E091E900449873 /* Build configuration list for PBXNativeTarget "SecretSocialTests" */;
 			buildPhases = (
+				CB8E4582D8ACD6F14A7B06CE /* [CP] Check Pods Manifest.lock */,
 				75E8BFCA21E091E900449873 /* Sources */,
 				75E8BFCB21E091E900449873 /* Frameworks */,
 				75E8BFCC21E091E900449873 /* Resources */,
@@ -146,6 +292,11 @@
 				TargetAttributes = {
 					75E8BFB921E091E800449873 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
 					};
 					75E8BFCD21E091E900449873 = {
 						CreatedOnToolsVersion = 10.0;
@@ -178,8 +329,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E8BFC821E091E900449873 /* LaunchScreen.storyboard in Resources */,
+				7548C4302202B81800B2EBE6 /* FriendsTableViewController.xib in Resources */,
+				75B3531321E731E600829E62 /* reddit64.png in Resources */,
+				75347DB721ED6AAB004429B5 /* aes.js in Resources */,
+				75ADBDE2220811F000EE705D /* Home.png in Resources */,
+				75B3531421E731E600829E62 /* facebook64.png in Resources */,
+				75B3531521E731E600829E62 /* twitter64.png in Resources */,
+				75295B1821FF120B00104873 /* fb642.png in Resources */,
+				75295B1F21FF174A00104873 /* iconfinder_reddit_1220354.png in Resources */,
+				75F1AA36220560170011497C /* ChannelsTableViewController.xib in Resources */,
+				75295B0D21FEFBDD00104873 /* FriendRequestTableViewController.xib in Resources */,
 				75E8BFC521E091E900449873 /* Assets.xcassets in Resources */,
+				75295B1D21FF167E00104873 /* reddi264.png in Resources */,
 				75E8BFC321E091E800449873 /* Main.storyboard in Resources */,
+				75B3531621E731E600829E62 /* instagram64.png in Resources */,
+				75295B1321FF0F0C00104873 /* instagram48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +356,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11AEE1347960EAAB14F6850A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SecretSocial/Pods-SecretSocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRSA.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecretSocial/Pods-SecretSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7076180DCDCD6B26A750C608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecretSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB8E4582D8ACD6F14A7B06CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecretSocialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75E8BFB621E091E800449873 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C8C5EB21FFE389009CEA2D /* Communicate.swift in Sources */,
+				75A89B832201B0FD008BCF20 /* Friends+CoreDataProperties.swift in Sources */,
+				7548C42F2202B81800B2EBE6 /* FriendsTableViewController.swift in Sources */,
 				75E8BFC021E091E800449873 /* ViewController.swift in Sources */,
+				75295B0C21FEFBDD00104873 /* FriendRequestTableViewController.swift in Sources */,
+				751C419D21E9A199005CD67B /* SecretSocial.xcdatamodeld in Sources */,
+				75F1AA3222055FD60011497C /* ChannelsTableViewCell.swift in Sources */,
+				75A89B812201B0FD008BCF20 /* Friends+CoreDataClass.swift in Sources */,
+				751C41A321E9C9B6005CD67B /* StringHash.swift in Sources */,
 				75E8BFBE21E091E800449873 /* AppDelegate.swift in Sources */,
+				75A89B842201B0FD008BCF20 /* ForeignKeys+CoreDataProperties.swift in Sources */,
+				751C41A121E9C7E8005CD67B /* SwCrypt.swift in Sources */,
+				751C416821E97D39005CD67B /* StringRegex.swift in Sources */,
+				75F1AA35220560170011497C /* ChannelsTableViewController.swift in Sources */,
+				751C416A21E99A0B005CD67B /* AccountController.swift in Sources */,
+				75A89B822201B0FD008BCF20 /* ForeignKeys+CoreDataClass.swift in Sources */,
+				75B3530021E1EE4700829E62 /* FacebookController.swift in Sources */,
+				75295B0921FEF95A00104873 /* FriendRequestTableViewCell.swift in Sources */,
+				75347DB521ED68C4004429B5 /* CryptoJS.swift in Sources */,
+				75B3530221E26C9C00829E62 /* RedditController.swift in Sources */,
+				75295B0F21FF024C00104873 /* AccountRetrieval.swift in Sources */,
+				750707072202683700CB1336 /* Errors.swift in Sources */,
+				7548C42C2202B6AA00B2EBE6 /* FriendsTableViewCell.swift in Sources */,
+				75B352FC21E1E91F00829E62 /* InstagramController.swift in Sources */,
+				75B352FA21E1E7A200829E62 /* TwitterController.swift in Sources */,
+				751C419F21E9C191005CD67B /* CreateAccountController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,8 +615,11 @@
 		};
 		75E8BFD821E091E900449873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02E7D69E01A46CDD77C3D8E /* Pods-SecretSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SecretSocial/SecretSocial.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PVFH9G54XH;
 				INFOPLIST_FILE = SecretSocial/Info.plist;
@@ -369,6 +629,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Encov.SecretSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,8 +637,11 @@
 		};
 		75E8BFD921E091E900449873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEA4E5143712D0304989800 /* Pods-SecretSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SecretSocial/SecretSocial.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PVFH9G54XH;
 				INFOPLIST_FILE = SecretSocial/Info.plist;
@@ -387,6 +651,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Encov.SecretSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,6 +659,7 @@
 		};
 		75E8BFDB21E091E900449873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A011222131AE41BB99B489 /* Pods-SecretSocialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +681,7 @@
 		};
 		75E8BFDC21E091E900449873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDCA18FC51B1EE533ECC2F2 /* Pods-SecretSocialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +732,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		751C419B21E9A199005CD67B /* SecretSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				751C419C21E9A199005CD67B /* SecretSocial.xcdatamodel */,
+			);
+			currentVersion = 751C419C21E9A199005CD67B /* SecretSocial.xcdatamodel */;
+			path = SecretSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 75E8BFB221E091E800449873 /* Project object */;
 }

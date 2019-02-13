@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ForeignKeys" representedClassName=".ForeignKeys" syncable="YES">
+        <attribute name="channelId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Friends" inverseName="foreignKey" inverseEntity="Friends" syncable="YES"/>
+    </entity>
+    <entity name="Friends" representedClassName=".Friends" syncable="YES">
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="foreignKey" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ForeignKeys" inverseName="friend" inverseEntity="ForeignKeys" syncable="YES"/>
+    </entity>
+    <entity name="FriendsRequestedByUser" representedClassName="FriendsRequestedByUser" syncable="YES" codeGenerationType="class">
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="privateKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publicKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserKeys" representedClassName="UserKeys" syncable="YES" codeGenerationType="class">
+        <attribute name="aesKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="channelId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="channelName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ForeignKeys" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Friends" positionX="296.93359375" positionY="-99.85546875" width="128" height="75"/>
+        <element name="FriendsRequestedByUser" positionX="210.65625" positionY="109.76171875" width="128" height="60"/>
+        <element name="UserInfo" positionX="28.265625" positionY="157.609375" width="128" height="120"/>
+        <element name="UserKeys" positionX="-277.7734375" positionY="63.91796875" width="128" height="90"/>
+    </elements>
+</model>

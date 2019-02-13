@@ -1,0 +1,18 @@
+PODS:
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+
+DEPENDENCIES:
+  - SwiftyRSA
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyRSA
+
+SPEC CHECKSUMS:
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+
+PODFILE CHECKSUM: 0c3ebed81f6b95d9050441071f8a90ba5bb4f16a
+
+COCOAPODS: 1.5.3
